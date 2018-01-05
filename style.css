@@ -19,22 +19,39 @@ body {
 
 .r_header {
 	float: right;
+	display: block;
+	padding-right: 8px;
 }
 
 .main {
-	/* This is not centering still!!!! */
 	margin: auto;
-	width: 50%;
-	padding: 109px;
+	width: 400px;
+	border: 3px;
+	padding: 200px;
 }
 
 .logo {
-	/* Still needs to be centered*/
+	text-align: center;
+}
+
+#l_button, #r_button {
+	height: 36px;
+	line-height: 27px;
+	border: 1px solid #c6c6c6;
+	border-radius: 2px
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	margin: 11px 4px;
+	padding: 0px 16px;
+	background-color: #f2#f2#f2;
+}
+
+.buttons {
+	text-align: center;
 }
 
 #input_box {
-	/* Still needs work */
 	width: 100%;
+	padding: 5px 9px 0;
 }
 
 .footer {
@@ -56,3 +73,6 @@ body {
 
 .r_footer {
 	float: right;
+	display: block;
+	padding-right: 8px;
+}
