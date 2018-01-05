@@ -1,16 +1,58 @@
+body {
+	font-family: arial, sans-serif;
+}
+
 .header {
-	
+	position: absolute;
+	right: 0;
+	top: 5px;
+	left: -30px;
+}
+
+.header li {
+	list-style-type: none;
+	font-size: 13px;
+	display: inline-block;
+	padding-left: 15px;
+	opacity: 0.75;
+}
+
+.r_header {
+	float: right;
 }
 
 .main {
-	display: block;
-
+	/* This is not centering still!!!! */
+	margin: auto;
+	width: 50%;
+	padding: 109px;
 }
 
-#search_button {
-	dipslay: inline-block;
+.logo {
+	/* Still needs to be centered*/
+}
+
+#input_box {
+	/* Still needs work */
+	width: 100%;
 }
 
 .footer {
-
+	position: absolute;
+	right: 0;
+	bottom: -5px;
+	left: -30px;
+	padding: 5px;
+	background-color: lightgrey;
 }
+
+.footer li {
+	list-style-type: none;
+	font-size: 13px;
+	display: inline-block;
+	padding: 0px 15px;
+	opacity: 0.75;
+}
+
+.r_footer {
+	float: right;
